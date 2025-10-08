@@ -77,7 +77,7 @@ Before setting up the application, ensure you have the following installed:
    - Run Local Server:
 
      ```bash
-     python manage.py runserver 8001 ### Strict use since backend is running on 8001
+     python manage.py runserver 8001 ### Strict use since frontend is running on 8001
      ```
 
 3. **Set Up the Frontend**:
