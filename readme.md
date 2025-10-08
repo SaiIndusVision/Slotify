@@ -20,7 +20,6 @@
 
 ## Features
 
-- **User Management**: Create, update, and manage users with distinct roles (User and Admin).
 - **Slot and Booking System**: Create, view, and manage time slots and bookings with conflict detection.
 - **Dashboard**: Provides an overview of categories, slots, bookings, and user statistics.
 - **Role-Based Access**: Admins have elevated permissions, while users can sign up and book slots.
