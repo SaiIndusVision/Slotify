@@ -42,7 +42,7 @@
 
 Before setting up the application, ensure you have the following installed:
 
-- **Python** 3.12 or higher
+- **Python** 3.10 or higher (3.12 recomended)
 - **Node.js** 18.x or higher (for Angular CLI)
 - **npm** 9.x or higher
 - **Git** for cloning the repository
