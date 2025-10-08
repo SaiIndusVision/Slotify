@@ -107,7 +107,7 @@ Before setting up the application, ensure you have the following installed:
    - Create a `.env` file in the `backend` directory if required (e.g., for JWT secret keys or other configurations). Example:
 
      ```env
-     SECRET_KEY=your-django-secret-key
+     AES_KEY=AES_KEY
      DEBUG=True
      ```
      ```environment.ts
