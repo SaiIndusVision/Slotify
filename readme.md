@@ -77,7 +77,6 @@ Before setting up the application, ensure you have the following installed:
    - Run Local Server:
 
      ```bash
-     cd backend
      python manage.py runserver 8001 ### Strict use since backend is running on 8001
      ```
 
