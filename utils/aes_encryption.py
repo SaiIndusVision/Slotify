@@ -14,7 +14,7 @@ if not base64_key:
     raise ValueError("AES_KEY not found in environment variables")
 
 AES_KEY = binascii.unhexlify(base64_key)
-print('aes key',AES_KEY)
+
 # URL-safe Base64 encoding and decoding functions
 def safe_encode(data):
     encoded = base64.urlsafe_b64encode(data).decode('utf-8')
