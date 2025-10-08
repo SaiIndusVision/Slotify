@@ -123,7 +123,7 @@ WSGI_APPLICATION = 'SLOTIFY.wsgi.application'
 SWAGGER_USE_COMPAT_RENDERERS = False
 
 SWAGGER_SETTINGS = {
-    'USE_SESSION_AUTH': False,  # Set to False if you're using Token/JWT authentication
+    'USE_SESSION_AUTH': False, 
     'SECURITY_DEFINITIONS': {
         'Bearer': {
             'type': 'apiKey',
@@ -133,6 +133,7 @@ SWAGGER_SETTINGS = {
     },
     'PERSIST_AUTH': True,
 }
+
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
