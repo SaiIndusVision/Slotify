@@ -134,7 +134,7 @@ Before setting up the application, ensure you have the following installed:
 2. **Run the Docker Container**:
 
    ```bash
-   docker run -d -p 8001:8001 -v $(pwd)/env.ext:/app/env.ext saitr06/slotify:v1
+   docker run -d -p 8001:8001 saitr06/slotify:v1
    ```
 
    - This maps port `8001` on your host to the container and mounts the `env.ext` file for configuration.
